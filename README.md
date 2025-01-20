@@ -34,7 +34,6 @@ Proje hakkında kısa bir tanıtım videosu: https://youtu.be/MVyyxX92l4Y
   - Nadir kategoriler "Other" olarak yeniden adlandırılır
   - ```python
     threshold = 10
-    threshold = 10
     for col in categorical_columns:
         if data[col].nunique() > threshold:
             top_categories = data[col].value_counts().nlargest(threshold).index
